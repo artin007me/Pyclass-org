@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background-image: url("home_page_background3.PNG");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-right: 5%;
+    object-fit: cover;
+    direction: ltr;
+}
+.tool_bar{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log_or_sign{
+    background-color: rgb(235, 228, 214);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.8rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.log{
+    background-color: rgb(235, 228, 214);
+    width: 43%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+}
+.sign{
+    background-color: rgb(49, 158, 49);
+    width: 57%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+}
+.log p{
+    color: black;
+}
+.sign p{
+    color: white;
+}
+.log:hover{
+    /* background-color: rgb(42, 146, 42); */
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.log_or_sign:hover{
+    /* background-color: rgb(42, 146, 42); */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: green;
+    transition-duration: 0.2s;
+}
+img{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+}
+.black{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+.white{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+.orange{
+    color: orange;
+    text-decoration: none;
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+.text1{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.text{
+    font-size: 4rem;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.p{
+    font-size: 1rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+.p1{
+    font-size: 1rem;
+    margin-left: 10rem;
+}
+.black:hover{
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.white:hover{
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.orange:hover{
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+@media (max-width:500px) {
+    .tool_bar{
+        flex-direction: column;
+        height: 77.5vh;
+        width: 40%;
+        align-items: normal;
+        margin-left: 2%;
+    }
+    .log_or_sign{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 135%;
+        order: -1;
+    }
+    .white{
+        color: black;
+    }
+    img{
+        margin-top: 8.7rem;
+        margin-left: 0;
+    }
+    .a_tag_for_logo{
+        order: 1;
+        margin-top: rem;
+    }
+    body{
+        background-position-x: 65%;
+        background-repeat: no-repeat;
+        background-image: url("home_page_background3.PNG");
+        width: 100%;
+        height: 100vh;
+        margin-right: 5%;
+        object-fit: cover;
+        direction: ltr;
+    }
+    .text1{
+        font-size: 3rem;
+        margin-left: 1rem;
+        margin-top: 10rem;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.2s;
+        cursor: pointer;
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        font-size: 3rem;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+    .p{
+        font-size: 1rem;
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .p1{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+}
